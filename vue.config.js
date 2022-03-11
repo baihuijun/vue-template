@@ -19,6 +19,7 @@ module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   // 生产环境sourceMap
   productionSourceMap: false,
+  // filenameHashing: false,
   devServer: {
     proxy: {
       '/tyjk': {
